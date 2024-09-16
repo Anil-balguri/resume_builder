@@ -70,7 +70,7 @@ def create_resume():
     p.add_run('Mechanical Engineering, University College of Engineering, Osmania University, Hyderabad (Aug 2016 - Sept 2020)')
 
     # Save the document
-    doc.save('/content/ATS_Friendly_Resume.docx')
+    doc.save('./ATS_Friendly_Resume.docx')
 
 if __name__ == "__main__":
     create_resume()
